@@ -1,6 +1,7 @@
 import { useDropIndicator } from 'react-aria';
 import React from 'react';
 import PropType from 'prop-types';
+import './DropIndicator.css';
 
 function DropIndicator(props) {
     let style = props.style || {};

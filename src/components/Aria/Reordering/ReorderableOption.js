@@ -29,7 +29,8 @@ function ReorderableOption({ item, state, dragState, dropState }) {
 
 // Register the item as a drag source.
     let { dragProps } = useDraggableItem({
-        key: item.key
+        key: item.key,
+        // hasDragButton: true,
     }, dragState);
 
     return (

@@ -2,8 +2,7 @@ import PropType from 'prop-types';
 
 const ListComp1 = ({ data }) => {
     const size = {
-        margin: '10px',
-        width: '100px',
+        marginTop: '10px',
         padding: '10px',
         border: '1px solid pink',
     };

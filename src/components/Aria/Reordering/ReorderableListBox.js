@@ -65,6 +65,7 @@ function ReorderableListBox(props) {
 
     return (
         <ul
+            style={{paddingInlineStart: '0px'}}
             {...mergeProps(listBoxProps, collectionProps)}
             ref={ref}
         >
