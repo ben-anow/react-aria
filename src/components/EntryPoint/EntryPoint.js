@@ -12,6 +12,7 @@ const EntryPoint = () => {
         display: 'flex',
         flexDirection: 'column',
         padding: '10px',
+        paddingLeft: '30px',
         border: '1px solid lightgray',
     }
     return (

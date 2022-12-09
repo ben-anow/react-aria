@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
     };
     const size = {
         width: '1400px',
-        height: '800px',
+        height: '700px',
         margin: 'auto',
     }
     return (
